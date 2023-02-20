@@ -40,6 +40,89 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.137254901960784, 0.752941176470588, 0.815686274509804, 1.0 ],
+					"fontface" : 1,
+					"id" : "obj-240",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2798.522769927978516, 1150.070914626121521, 162.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 659.960834085941315, 851.257291555404663, 161.851855993270874, 48.0 ],
+					"text" : "Turn Presets OFF if you are using the manual Sequencers"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.137254901960784, 0.752941176470588, 0.815686274509804, 1.0 ],
+					"fontface" : 1,
+					"id" : "obj-238",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1571.605063796043396, 1575.308767795562744, 160.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 1070.370455861091614, 745.979022264480591, 160.0, 34.0 ],
+					"text" : "Resonance Filter for Synth 2 Lores"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.137254901960784, 0.752941176470588, 0.815686274509804, 1.0 ],
+					"fontface" : 1,
+					"id" : "obj-234",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 990.123535871505737, 1601.234695792198181, 160.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 115.429941415786743, 745.979022264480591, 160.0, 34.0 ],
+					"text" : "Resonance Filter for Synth 1 Lores"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-230",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1581.666791796684265, 1409.790462613105774, 20.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1037.222303867340088, 639.979022264480591, 20.0, 140.0 ],
+					"size" : 1.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-228",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1022.222303867340088, 1426.889230608940125, 20.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 282.627738833427429, 639.979022264480591, 20.0, 140.0 ],
+					"size" : 1.0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.137254901960784, 0.752941176470588, 0.815686274509804, 0.0 ],
 					"fontface" : 1,
 					"fontname" : "Futura PT Cond Bold",
@@ -49,7 +132,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1154.999972462654114, 1299.999969005584717, 510.0, 171.0 ],
+					"patching_rect" : [ 914.999972462654114, 1148.999969005584717, 510.0, 171.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 174.09382164478302, 79.038391351699829, 510.0, 171.0 ],
@@ -1178,7 +1261,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1203.987762928009033, 1518.889230608940125, 154.0, 20.0 ],
+					"patching_rect" : [ 1204.987762928009033, 1546.889230608940125, 154.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 585.130355834960938, 720.51277756690979, 154.0, 20.0 ],
 					"text" : "Sound ON/OFF"
@@ -6014,8 +6097,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 2 ],
+					"source" : [ "obj-228", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-146", 0 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-115", 2 ],
+					"source" : [ "obj-230", 0 ]
 				}
 
 			}
