@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 82.0, 1153.0, 923.0 ],
+		"rect" : [ 40.0, 82.0, 1153.0, 910.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -4295,18 +4295,17 @@
 			}
 , 			{
 				"box" : 				{
-					"clickedimage" : 1,
-					"id" : "obj-258",
-					"ignoreclick" : 1,
-					"maxclass" : "pictctrl",
-					"name" : "Screenshot 2023-02-19 171431.png",
+					"autofit" : 1,
+					"forceaspect" : 1,
+					"id" : "obj-3",
+					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 11.538460850715637, 1385.263050556182861, 698.205087780952454, 673.792323267624852 ],
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 181.809608936309814, 1365.904826402664185, 100.0, 52.666666666666664 ],
+					"pic" : "C:/Users/Noste/Pictures/Saved Pictures/Screenshot 2023-02-19 171431.png",
 					"presentation" : 1,
-					"presentation_rect" : [ -3.611177325248718, -5.392545330606936, 2282.219064354896545, 1378.593909609400271 ]
+					"presentation_rect" : [ 0.857247829437256, -5.523594617843628, 2549.999731302261353, 1342.99985848585743 ]
 				}
 
 			}
@@ -7600,7 +7599,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "Screenshot 2023-02-19 171431.png",
 				"bootpath" : "~/Pictures/Saved Pictures",
-				"patcherrelativepath" : "../../Pictures/Saved Pictures",
+				"patcherrelativepath" : "../../../Pictures/Saved Pictures",
 				"type" : "PNG",
 				"implicit" : 1
 			}
