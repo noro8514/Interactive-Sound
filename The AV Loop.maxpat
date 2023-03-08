@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 40.0, 82.0, 1153.0, 910.0 ],
+		"rect" : [ 34.0, 82.0, 1553.0, 923.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 117.1875, 614.0625, 150.0, 34.0 ],
+					"patching_rect" : [ 117.1875, 614.0625, 151.0, 34.0 ],
 					"text" : "Used to mess around with luminance and saturations"
 				}
 
@@ -92,7 +92,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 607.0, 173.4375, 150.0, 48.0 ],
+					"patching_rect" : [ 607.0, 173.4375, 151.0, 48.0 ],
 					"text" : "Setting default brightness, contrast, and saturation levels"
 				}
 
@@ -129,7 +129,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 848.4375, 926.5625, 218.0, 462.0 ],
+					"patching_rect" : [ 848.4375, 926.5625, 223.0, 462.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 14,
 					"presentation_rect" : [ 593.870296478271484, 407.678407192230225, 335.75, 296.0 ],
@@ -250,7 +250,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1330.769357681274414, 890.769315719604492, 22.0, 140.0 ]
+					"patching_rect" : [ 1330.769357681274414, 890.769315719604492, 22.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 789.769357681274414, 740.245244979858398, 38.0, 166.0 ]
 				}
 
 			}
@@ -529,7 +531,9 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1217.923124313354492, 969.230861663818359, 45.0, 45.0 ]
+					"patching_rect" : [ 1217.923124313354492, 969.230861663818359, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 593.870296478271484, 740.245244979858398, 165.8125, 165.8125 ]
 				}
 
 			}
