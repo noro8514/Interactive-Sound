@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "openweather-apis": "^4.4.2",
+    "tonal": "^4.14.0"
+  }
+}
