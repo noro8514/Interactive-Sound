@@ -91,13 +91,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-149",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 781.666689515113831, 1302.333346009254456, 50.0, 36.0 ],
-					"text" : "226.666667"
+					"patching_rect" : [ 781.666689515113831, 1302.333346009254456, 50.0, 22.0 ],
+					"text" : "255."
 				}
 
 			}
@@ -109,7 +108,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 718.666688084602356, 1302.333346009254456, 50.0, 22.0 ],
-					"text" : "292."
+					"text" : "322."
 				}
 
 			}
@@ -123,6 +122,8 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 611.666682839393616, 1326.333346009254456, 48.0, 136.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 187.666682839393616, 334.333346009254456, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -173,6 +174,8 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 478.333347678184509, 1334.333346009254456, 48.0, 136.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 121.333347678184509, 334.333346009254456, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -624,7 +627,9 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 392.58334481716156, 1425.333346009254456, 45.0, 45.0 ]
+					"patching_rect" : [ 392.58334481716156, 1425.333346009254456, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 92.833346784114838, 500.333346009254456, 105.000001788139343, 105.000001788139343 ]
 				}
 
 			}
@@ -638,6 +643,8 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 421.333345890045166, 1146.666700839996338, 48.0, 136.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 54.833345890045166, 334.333346009254456, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -855,6 +862,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 109.0, 12.0, 52.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 126.833347678184509, 209.0, 52.0, 22.0 ],
 					"text" : "get data"
 				}
 
@@ -1356,7 +1365,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 397.66665506362915, 686.0, 141.0, 22.0 ],
-					"text" : "main::temp_max 44.94"
+					"text" : "main::temp_max 61.68"
 				}
 
 			}
@@ -1386,6 +1395,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 267.0, 686.0, 65.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 120.333347678184509, 85.0, 65.0, 22.0 ],
 					"text" : "\"new york\""
 				}
 
@@ -1407,7 +1418,9 @@
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 46.0, 758.0, 246.0, 707.0 ]
+					"patching_rect" : [ 46.0, 758.0, 246.0, 707.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 292.0, 17.0, 246.0, 701.0 ]
 				}
 
 			}
@@ -1419,6 +1432,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 240.0, 635.0, 45.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 120.333347678184509, 55.0, 50.0, 22.0 ],
 					"text" : "denver"
 				}
 
@@ -1491,8 +1506,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
