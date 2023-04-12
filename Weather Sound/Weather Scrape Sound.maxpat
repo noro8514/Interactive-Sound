@@ -40,6 +40,90 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-77",
+					"linecount" : 10,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 610.0, 66.0, 150.0, 144.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 10,
+					"presentation_rect" : [ 610.0, 66.0, 150.0, 144.0 ],
+					"text" : "The 3D Object window shows visually how high or low the maximum or minimum temps of the provided city are. A brighter blue means a higher minimum temperature, while a brighter red indicates a higher max temperature."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 126.0, 292.0, 150.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 43.0, 292.0, 233.0, 20.0 ],
+					"text" : "Wind Intensity | Min Temp | Max Temp"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-73",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 89.0, 190.0, 150.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 67.0, 184.0, 172.0, 20.0 ],
+					"text" : "Get the City's Weather Data"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-69",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 73.0, 13.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 104.0, 29.0, 150.0, 20.0 ],
+					"text" : "Choose a City"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-64",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 493.333347678184509, 596.0, 38.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 120.333347678184509, 114.0, 38.0, 22.0 ],
+					"text" : "berlin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 485.0, 638.0, 37.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 120.333347678184509, 144.0, 37.0, 22.0 ],
+					"text" : "tokyo"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-48",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -91,24 +175,26 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-149",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 781.666689515113831, 1302.333346009254456, 50.0, 22.0 ],
-					"text" : "255."
+					"patching_rect" : [ 781.666689515113831, 1302.333346009254456, 50.0, 36.0 ],
+					"text" : "248.333333"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-148",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 718.666688084602356, 1302.333346009254456, 50.0, 22.0 ],
-					"text" : "322."
+					"patching_rect" : [ 718.666688084602356, 1302.333346009254456, 50.0, 36.0 ],
+					"text" : "294.285714"
 				}
 
 			}
@@ -297,7 +383,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 600.000019073486328, 922.0, 90.0, 22.0 ],
-					"text" : "scale 0 50 0. 1."
+					"text" : "scale 0 70 0. 1."
 				}
 
 			}
@@ -1365,7 +1451,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 397.66665506362915, 686.0, 141.0, 22.0 ],
-					"text" : "main::temp_max 61.68"
+					"text" : "main::temp_max 57.63"
 				}
 
 			}
@@ -1506,6 +1592,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -2147,6 +2235,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
 					"source" : [ "obj-55", 0 ]
 				}
@@ -2214,6 +2309,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
 					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-64", 0 ]
 				}
 
 			}

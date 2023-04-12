@@ -19,3 +19,17 @@ maxApi.addHandler("new york", () => {
         maxApi.outlet(JSONObj);
     });
 });
+
+maxApi.addHandler("tokyo", () => {
+    weather.setCity('tokyo');
+    weather.getAllWeather(function(err, JSONObj){
+        maxApi.outlet(JSONObj);
+    });
+});
+
+maxApi.addHandler("berlin", () => {
+    weather.setCity('berlin');
+    weather.getAllWeather(function(err, JSONObj){
+        maxApi.outlet(JSONObj);
+    });
+});
